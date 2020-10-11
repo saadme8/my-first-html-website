@@ -1,0 +1,75 @@
+body, html {
+  background-color: #0d0d0d;
+  padding: 0;
+  margin: 0;
+  color: #d1d1e0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.titles {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Sansita Swashed', cursive;
+  border: 5px dashed #00001a;
+  padding: 5px;
+  width: 300px;
+  margin: 20px auto 0;
+  border-radius: 20px;
+}
+.meme {
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 300px;
+}
+.shortcuts {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin: auto;
+}
+.shortcuts li a {
+  background-color: #00001a;
+  color: #d1d1e0;
+  padding: 5px;
+}
+.shortcuts li {
+  margin: 15px;
+  display: inline;
+}
+nav {
+  background-color: #00001a;
+  padding: 10px;
+  margin: 0;
+}
+nav h1 {
+  display: inline;
+}
+
+.block {
+  background-color: #1d1d1d;
+  margin: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.block p, .block ul {
+  max-width: 50%;
+  margin: 10px auto;
+  text-align: center;
+  list-style: none;
+}
+.block ul li {
+  margin: 5px 0;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .shortcuts {
+    display: block;
+    width: 100%;
+  }
+  .block p {
+    max-width: 90%;
+  }
+  .shortcuts li {
+    margin: 0px;
+  }
+}
